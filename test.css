@@ -1,0 +1,31 @@
+.allcontainer {
+
+  width: 100%;
+
+  font-family: 'Inter';
+
+}
+
+.wrapper {
+
+position: relative;
+}
+
+#moving {
+
+  width: 800px;
+  height: 300px;
+  left: 20px;
+  background-color: brown;
+  transition: 300ms ease;
+  z-index: 1;
+  position: absolute;
+
+}
+
+.notmoving {
+  width: 800px;
+  height: 1000px;
+  background-color: blueviolet;
+  margin-top: 200px;
+}
