@@ -20,7 +20,7 @@ window.addEventListener('wheel', function (event) {
     if (event.deltaY < 0) {
 
         let newPosition = leftPosition + step;
-        myScroller.style.left = Math.round(newPosition / 100) * 100 + 'px';
+        myScroller.style.left = Math.round(newPosition / 200) * 200 + 'px';
         
         console.log(myScroller.style.left);
 
@@ -29,7 +29,7 @@ window.addEventListener('wheel', function (event) {
     else if (event.deltaY > 0) {
 
         let newPosition = leftPosition - step;
-        myScroller.style.left = Math.round(newPosition / 100) * 100 + 'px';
+        myScroller.style.left = Math.round(newPosition / 200) * 200 + 'px';
 
         console.log(myScroller.style.left);
 
